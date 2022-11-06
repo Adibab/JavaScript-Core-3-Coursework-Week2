@@ -1,0 +1,46 @@
+ * {
+  box-sizing: border-box;
+}
+
+.main-container{
+  margin-top: 40px;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.btn-container {
+  margin: 2% 0;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+button {
+  background-color: blue;
+  border: none;
+  padding: 1%;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  /* margin: 2%; */
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+#show-dog-image {
+  gap: 2px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  justify-items: center;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
