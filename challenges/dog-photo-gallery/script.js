@@ -13,7 +13,7 @@ function getFetch() {
       createDogPhoto(data.message);
     })
     .catch((error) => {
-      console.log(`Something went ${error}`);
+      console.log( ulItem.innerText = `Something went ${error}`);
     });
 }
 
